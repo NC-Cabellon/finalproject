@@ -1,0 +1,110 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+body{
+    width: 100%;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 170px;
+    background: #282F52;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover{
+    color: #585f83;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.logo{
+    width: 5rem;
+    height: auto;
+}
+
+.btn.btn-success{
+    border-radius: 25px;
+    width: 12rem;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+.p1{
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.p2{
+    font-style: italic;
+    font-size: 25px;
+}
+
+.book-intro{
+    margin: 25px;
+}
+
+.book-statistics{
+    padding: 30px;
+    background-color: #323b69
+}
+
+.p3{
+    font-size: 18px;
+    color: white;
+}
+
+.inner-statistics{
+    color: white;
+}
+
+.note-margin{
+    background-color: #3e4982;
+    padding: 50px;
+    color: white;
+}
+
+.note{
+    padding-left: 18rem;
+    padding-right: 18rem;
+}
+
+.literacy-margin{
+    padding: 50px;
+}
+
+.literacy{
+    padding-left: 18rem;
+    padding-right: 18rem;
+}
+
+.desc{
+    font-size: 18px;
+}
+
+
+
+
+
